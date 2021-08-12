@@ -1,0 +1,31 @@
+
+.sub{
+    
+    padding:20px;
+}
+
+.f{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.f >*{
+    flex: 0 1 100%;
+}
+
+.note{
+    background-color: rgb(66, 66, 180);
+    height: 250px;
+    width: 350px;
+    margin: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button{
+    padding-left: 10px;
+}
